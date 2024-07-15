@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+h1 {
+    color:white;
+}
+#a1 {
+    color: skyblue;
+}
+.odd {
+    color: red;
+}
+.even {
+    color: blue;
+}
+#p1 {
+    color: green;
+}
