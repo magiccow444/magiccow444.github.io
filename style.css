@@ -1,7 +1,15 @@
+@font-face {
+    src: url("Fonts/Kanit-Regular.ttf");
+    font-family: kanit;
+}
+@font-face {
+    src: url("Fonts/WorkSans-VariableFont_wght.ttf");
+    font-family: workSans;
+}
 body {
     background-color: #282727;
 }
-.title {
+.ch1 {
     color: white;
 }
 #a1 {
@@ -18,5 +26,16 @@ body {
 }
 #p4 {
     color: hsl(299, 60%, 49%)
+}
+#fh1 {
+    color: white;
+    font-family: kanit, workSans, verdana, arial;
+}
+#fp1 {
+    color:rgb(168, 156, 40);
+    font-family: workSans, kanit, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
 }
 
