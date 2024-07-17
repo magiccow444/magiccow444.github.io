@@ -54,12 +54,21 @@ body {
 }
 #bp1 {
     color: white;
-    
+
     border-bottom: 3px solid rgb(222, 52, 52);
     border-top: 3px solid rgb(249, 246, 70);
     border-left: 3px dotted rgb(70, 156, 249);
     border-right: 3px dashed rgb(70, 249, 70);
 
     border-radius: 10px;
+}
+.sh1 {
+    text-shadow: 3px 3px 5px rgb(246, 38, 38), -3px -3px 5px rgb(42, 195, 209);
+}
+.sbox1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 96, 96);
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
 }
 
