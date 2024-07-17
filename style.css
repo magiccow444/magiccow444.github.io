@@ -94,4 +94,26 @@ body {
     background-color: hsl(54, 93%, 60%);
     margin-left: 100px;
 }
+/*
+body {
+    border: 3px solid;
+    display: flow-root;
+}
+This creates a border around your body BUT when resized
+usually the floating images will not be contained within 
+the border. But when we set the display to flow-root, the 
+border will contain the floating images no matter what 
+size it is resized to.
+*/
+.flo {
+    color: white;
+}
+#fimg1 {
+    float: left;
+    margin-right: 10px;
+}
+#fimg2 {
+    float: right;
+    margin-left: 10px;
+}
 
