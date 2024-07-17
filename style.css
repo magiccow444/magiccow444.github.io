@@ -38,4 +38,28 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+#bh1 {
+    color: white;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(281, 61%, 41%);
+    border-radius: 7px;
+}
+#bh2 {
+    color: white;
+
+    border: 3px solid hsl(191, 59%, 54%);
+    border-radius: 1px;
+}
+#bp1 {
+    color: white;
+    
+    border-bottom: 3px solid rgb(222, 52, 52);
+    border-top: 3px solid rgb(249, 246, 70);
+    border-left: 3px dotted rgb(70, 156, 249);
+    border-right: 3px dashed rgb(70, 249, 70);
+
+    border-radius: 10px;
+}
 
