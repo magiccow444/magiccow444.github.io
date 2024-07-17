@@ -71,4 +71,27 @@ body {
     background-color: rgb(96, 96, 96);
     box-shadow: 4px 4px 5px rgb(0, 0, 0);
 }
+.mbox {
+    border: 5px solid;
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+
+}
+#mbox1 {
+    background-color: hsl(0, 88%, 52%);
+    margin: 50px;
+}
+#mbox2 {
+    background-color: hsl(196, 81%, 60%);
+    margin-left: auto;
+}
+#mbox3 {
+    background-color: hsl(135, 73%, 49%);
+    margin: auto;
+}
+#mbox4 {
+    background-color: hsl(54, 93%, 60%);
+    margin-left: 100px;
+}
 
