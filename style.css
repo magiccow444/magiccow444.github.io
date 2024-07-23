@@ -116,4 +116,24 @@ size it is resized to.
     float: right;
     margin-left: 10px;
 }
-
+.odiv {
+    color: white;
+    border: 2px solid;
+    height: 75px;
+}
+#odiv1 {
+    overflow: visible;
+}
+#odiv2 {
+    overflow: hidden;
+}
+#odiv3 {
+    overflow: clip;
+    overflow-clip-margin: 13px;
+}
+#odiv4 {
+    overflow: scroll;
+}
+#odiv5 {
+    overflow: auto;
+}
