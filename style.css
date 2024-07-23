@@ -7,7 +7,7 @@
     font-family: workSans;
 }
 body {
-    background-color: #282727;
+    background-color: #282727; 
 }
 .ch1 {
     color: white;
@@ -150,4 +150,27 @@ size it is resized to.
     height: 100px;
     /* display: inline; (Already inline so no change*/
     display: inline-block; 
+}
+.hwbox {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    padding: 25px; 
+    box-sizing: border-box; /*Lets you only think about the height and width as it handles padding and border */
+    height: auto; /* You can explicityly set the height and width in pixels or percents*/
+    width: 50%; 
+    float: right;
+    text-align: center;
+
+    min-width: 50%;
+    max-height: 100%;
+}
+    /*
+* {
+    box-sizing: border-box; 
+    (Some people do this cuz it's easier)
+}
+    */
+.containter {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
 }
