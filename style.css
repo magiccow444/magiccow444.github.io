@@ -7,13 +7,17 @@
     font-family: workSans;
 }
 body {
-    background-color: #282727; 
+    background-image: url(Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .ch1 {
     color: white;
 }
 #a1 {
-    color: rgb(19, 19, 187);
+    color: rgb(146, 179, 250);
 }
 #p1 { 
     color: tomato; 
@@ -212,4 +216,6 @@ size it is resized to.
     background-color: hsl(287, 73%, 60%);
     position: static;
 }
-
+p {
+    color: white;
+}
