@@ -303,7 +303,7 @@ select all lists if you want */
     font-size: 1.5em;
 }
 .pagination {
-    text-align: center;;
+    text-align: center;
 }
 .pagination a {
     color: white;
@@ -352,4 +352,24 @@ select all lists if you want */
 }
 .dropdown a:hover {
     background-color: hsl(0, 0%, 86%);
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 22%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 44%);
+}
+.navbar li {
+    float: left;
 }
