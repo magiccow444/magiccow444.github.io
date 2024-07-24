@@ -238,3 +238,30 @@ h1 {
 #ccontainer + p {
     background-color: rgb(69, 244, 69);
 }
+#pca1:link {
+    color: rgb(110, 175, 255);
+}
+#pca1:hover {
+    colo: rgb(188, 188, 255);
+
+}
+li:hover {
+    background-color: rgb(255, 255, 79);
+}
+li:not(:hover) {
+    background-color: gray;
+}
+li:nth-child(3) { /*You can use even/odd or nth-child to select specific elements or even go 2n or 3n... to go by 2 or 3*/
+    background-color: rgb(85, 255, 85);
+}
+#pcgreeting {
+    background-color: gray;
+}
+#pcgreeting p {
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+#pcgreeting:hover p {
+    display: block;
+}
