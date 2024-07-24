@@ -219,3 +219,22 @@ size it is resized to.
 p {
     color: white;
 }
+h1 {
+    color: white;
+}
+#ccontainer {
+    border: 2px solid;
+    border-color: white;
+}
+#ccontainer p {
+    background-color: rgb(230, 230, 68);
+}
+#ccontainer > p {
+    background-color: rgb(99, 99, 255);
+}
+#ccontainer ~ p {
+    background-color: rgb(255, 36, 36);
+}
+#ccontainer + p {
+    background-color: rgb(69, 244, 69);
+}
