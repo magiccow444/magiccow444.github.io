@@ -321,3 +321,35 @@ select all lists if you want */
     border-radius: 5px;
 
 }
+.dropdown {
+    display: inline-block;
+}
+.dropdown button {
+    background-color: hsl(0, 0%, 44%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .dmcontent {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 68%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.842);
+}
+.dropdown:hover .dmcontent {
+    display: block;
+}
+.dropdown:hover button {
+    background-color: hsl(0, 1%, 62%);
+}
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 86%);
+}
