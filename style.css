@@ -226,32 +226,36 @@ h1 {
     border: 2px solid;
     border-color: white;
 }
-#ccontainer p {
+/* For these ccontainers you don't need the cp class you 
+can just select all paragraphs if you want */
+#ccontainer .cp {
     background-color: rgb(230, 230, 68);
 }
-#ccontainer > p {
+#ccontainer > .cp{
     background-color: rgb(99, 99, 255);
 }
-#ccontainer ~ p {
+#ccontainer ~ .cp {
     background-color: rgb(255, 36, 36);
 }
-#ccontainer + p {
+#ccontainer + .cp {
     background-color: rgb(69, 244, 69);
 }
 #pca1:link {
     color: rgb(110, 175, 255);
 }
 #pca1:hover {
-    colo: rgb(188, 188, 255);
+    color: rgb(188, 188, 255);
 
 }
-li:hover {
+/* For these 3 pclists you dont need the id you can just 
+select all lists if you want */
+#pclist li:hover {
     background-color: rgb(255, 255, 79);
 }
-li:not(:hover) {
+#pclist li:not(:hover) {
     background-color: gray;
 }
-li:nth-child(3) { /*You can use even/odd or nth-child to select specific elements or even go 2n or 3n... to go by 2 or 3*/
+#pclist li:nth-child(3) { /*You can use even/odd or nth-child to select specific elements or even go 2n or 3n... to go by 2 or 3*/
     background-color: rgb(85, 255, 85);
 }
 #pcgreeting {
@@ -264,4 +268,37 @@ li:nth-child(3) { /*You can use even/odd or nth-child to select specific element
 }
 #pcgreeting:hover p {
     display: block;
+}
+#peh1::first-letter {
+    font-size: 2em;
+    font-style: italic
+}
+#pep1::first-line {
+    background-color: rgb(239, 239, 75);
+}
+#pep1::selection {
+    color:rgb(64, 203, 69);
+    background-color: rgb(32, 32, 32);
+}
+#fruit {
+    color: white;
+}
+/*
+#fruit li::before {
+    content: "✅";
+}
+*/
+#apple::after {
+    content: "🍎";
+}
+#orange::after {
+    content: "🍊";
+}
+#banana::after {
+    content: "🍌";
+}
+#fruit li::marker {
+    content: "✅";
+    color: #28ff57;
+    font-size: 1.5em;
 }

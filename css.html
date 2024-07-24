@@ -166,21 +166,23 @@
     <h1>Combinators:</h1>
 
     <div id="ccontainer">
-        <p>This is #1 (Child)</p>
-        <p>This is #2 (Child)</p>
+        <p class="cp">This is #1 (Child)</p>
+        <p class="cp">This is #2 (Child)</p>
         <div>
-            <p>This is #3 (Descendant)</p>
+            <p class="cp">This is #3 (Descendant)</p>
         </div>
     </div>
 
-    <p>This is #4 (Adjacent sibling)</p>
-    <p>This is #5 (General sibling)</p>
+    <p class="cp">This is #4 (Adjacent sibling)</p>
+    <p class="cp">This is #5 (General sibling)</p>
 
     <br><hr>
 
     <!-- Pseudo-classes -->
 
-    <ul>
+    <h1>Pseudo-classes:</h1>
+
+    <ul id="pclist">
         <li style="color: white;">This is #1</li>
         <li style="color: white;" >This is #2</li>
         <li style="color: white;">This is #3</li>
@@ -201,7 +203,22 @@
 
     <br><hr>
 
-    
+    <!-- Pseudo-elements = keyword addded after a selevtor
+     that's used to stlye a specific part of an element
+     Ex:
+     h1::first-letter {
+     
+     }-->
+
+    <h1 id="peh1">Pseudo-elements</h1>
+
+    <p id="pep1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni suscipit exercitationem inventore voluptas. Sunt soluta nihil doloremque sed molestiae. Voluptatibus, iure laboriosam facere perferendis fugiat ipsam sequi nesciunt! Harum, dolores? (TRY TO SELECT SOME OF THIS TEXT!!)</p>
+
+    <ul id="fruit">
+        <li id="apple">Apple</li>
+        <li id="orange">Orange</li>
+        <li id="banana">Banana</li>
+    </ul>
 
 </body>
 
