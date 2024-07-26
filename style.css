@@ -497,3 +497,132 @@ footer {
 #fbox4 {
     background-color: hsl(196, 81%, 60%);
 }
+.trbox {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    font-size: 8em;
+    text-align: center;
+
+    transform: translate(100px, 0px) rotate(45deg) scale(.5);
+}
+#tbox1 {
+    
+    background-color: hsl(120, 85%, 65%);
+
+    /* also can use negatives and percentages */
+    /*transform: translate(100px, 100px); 
+
+    transform: rotate(10deg);
+
+    transform: scale(1.2, 1.2);
+
+    transform: skew(45deg, 10deg); 
+
+    transform: translate(100px, 5px) rotate(90deg) scale(.5); */
+}   
+#tbox2 {
+    background-color: hsl(0, 72%, 58%);
+}
+#tbox3 {
+    background-color: hsl(211, 81%, 60%);
+}
+#pika {
+    transform: translate(25%) rotate(175deg) scale(.5);
+}
+#abox1 {
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 76%, 57%);
+    font-size: 8em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.71,-0.58, 0.51, 1.5); /* Inspect the element, go to "animation-timing-function and click the purple box, set it to whatever you want and copy the cubic-bezier line and paste it back here*/
+}
+/*
+#abox1:hover {
+    animation-name: glow;
+    animation-duration: 5s;
+}
+#abox1:active {
+    animation-name: grow;
+    animation-duration: 5s;
+}
+*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(300%);
+    }
+}
+@keyframes slideRight {
+    to {
+        transform: translateX(300%);
+    }
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(300%);
+    }
+}
+@keyframes slideDown {
+    to {
+        transform: translateY(300%);
+    }
+}
+@keyframes rotate {
+    25% {
+        transform: rotateX(360deg);
+    }
+}
+@keyframes grow {
+    50% {
+        transform: scale(2,2)
+    }
+}
+@keyframes shrink {
+    50% {
+        transform: scale(.5,.5)
+    }
+}
+@keyframes fade {
+    50% {
+        opacity: 0;
+    }
+}
+@keyframes colorChange {
+    0% {
+        background-color: hsl(0, 76%, 57%);
+    }
+    20% {
+        background-color: rgb(237, 224, 86);
+    }
+    40% {
+        background-color: hsl(122, 76%, 57%);
+    }
+    60% {
+        background-color: hsl(202, 76%, 57%);
+    }
+    80% {
+        background-color: hsl(306, 76%, 57%);
+    }
+    100% {
+        background-color: hsl(336, 76%, 57%);
+    }
+}
+@keyframes glow {
+    50% {
+        box-shadow: 0 0 50px hsl(63, 85%, 60%);
+    }
+}
+#pika2 {
+    animation-name: slideRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
